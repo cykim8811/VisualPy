@@ -151,6 +151,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RefInt.cpp" />
+    <ClCompile Include="RefRect.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RefInt.h" />
+    <ClInclude Include="RefRect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

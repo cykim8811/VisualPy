@@ -21,6 +21,8 @@ int main(int argc, char** argv) {
 		window, -1, SDL_RENDERER_ACCELERATED
 	);
 
+	SDL_SetRenderDrawBlendMode(renderer, SDL_BLENDMODE_ADD);
+
 	// Main Loop
 	bool running = true;
 	while (running) {
